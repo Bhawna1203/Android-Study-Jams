@@ -41,10 +41,6 @@
 <img src="6.png" alt="a" width="200"/>
 <br><br>
 
-<h4> 5. Now on clicking on get search plant button you can screen any plant .In this i use rcycler view and Api calling</h4>
-<img src="11.jpg" alt="a" width="200"/>
-<br><br>
-
 <h4> 5. Now on clicking on get reminder button in bottom navigation bar.A screen opens with such a layout in which you can add any reminder</h4>
 <img src="8.png" alt="a" width="200"/>
 <img src="12.png" alt="a" width="200"/>
