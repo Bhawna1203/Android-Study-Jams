@@ -4,10 +4,10 @@
      Hope you all are doing well <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30" />
 </h3><br>
 <h3 align ="centre">Let's Have a look on my Project PlantaeLand</h3><br>
-<h3>Problem Statement:</h3>
+<h3> :collision: Problem Statement:</h3>
 <p>As we all know that environment play an important role in our everyday life.And you know the trees play an important role in the environment all the living things directly or indirectly depends on plant. So caring or taking of plant just like human is also necessary.One of the problem faced by the people is that they are not able to  remind that at what time we have to feed the plant.Due to which the plant dead. </p>
 
-<h3>Proposed Solution</h3>
+<h3>:fire: Proposed Solution</h3>
 <p>
   This project i.e. **PlantaeLand** helps the user to remind about the plant whom you are taking . This app also helps the user to search about the plant using Google API's.As of now this app can only used by one person.
  </p>
@@ -50,14 +50,23 @@
 <h4> 6. Now on clicking on mygarden button in bottom navigation bar.A screen opens with such a layout in which you can add any plant in your garden and track their progress as per months,days and years</h4>
 <img src="10.png" alt="a" width="200"/>
 
-<h2> Functionality and concepts used </h2>
-<h5>The App has a very simple and interactive interface which helps the user serach their plant and track its progress. Following are few android concepts used to achieve the functionalities in app :<br>
-1. Constraint Layout : Most of the activities in the app uses a flexible constraint layout, which is easy to handle for different screen sizes.<br>
-2.Simple,intuitive and attractive Design : Use of  EditText with hints and interactive buttons made it easier for user .And detailed instructions pages. Apps also uses App Navigation to switch between different screens.<br>
-3. RecyclerView: For showing the data of plants i use RecyclerView . I use googleApi data for making things easlier<br>
-4. I use room database for tracking the plant progress<br>
-5. I use ViewModel in the app so that data will not be lost due to configuration changes.And Livedata so that get the latest data after every activity or fragment recreated. </h5>
-<br><br>
+## 💻 Techs Used 
+- [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
+- [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) - For Asynchronous.
+- [Flow](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/) - A cold asynchronous data stream that sequentially emits values and completes normally or with an exception.
+- [StateFlow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow) - StateFlow is a state-holder observable flow that emits the current and new state updates to its collectors.
+- [Android Architecture Components](https://developer.android.com/topic/architecture) - Collection of libraries that help you design robust, testable, and maintainable apps.
+  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes.
+  - [ViewBinding](https://developer.android.com/topic/libraries/view-binding) - Generates a binding class for each XML layout file present in that module and allows you to more easily write code that interacts with views.
+  - [Room Database](https://developer.android.com/training/data-storage/room) - Room is an android library which is an ORM which wraps android's native SQLite database.
+  - [DifferentAPI](https://dagger.dev/hilt/) - Standard API for search about plant name  like tomato cucumber etc.
+  - [Dagger-Hilt](https://dagger.dev/hilt/) - Standard library to incorporate Dagger dependency injection into an Android application.
+  - [Tensorflow]() - Standard python based machine learning library for detecting plant diseases into an Android application.
+     
+
+     
+
+ 
 <h2>Future scope</h2>
 <h4>The app is currently used by private or individual so i am thinking to add some more features in future in it like identify using camera about the plant diseases so that our farmers can also use it at large level or community level to know more the plant diseses just by clicking the photo.
 </h4>
