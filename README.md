@@ -12,14 +12,14 @@
   This project i.e. **PlantaeLand** helps the user to remind about the plant whom you are taking . This app also helps the user to search about the plant using Google API's.As of now this app can only used by one person.
  </p>
   
- # Prerequisite
+ ## Prerequisite
 * Android Studio installed in your system.
    
 
 🚀 Language used in creating this is Kotlin 
   
 <br><br>
-⚡**UI** of PlantaeLand
+##⚡**UI** of PlantaeLand
 <br>
 <h4> 1. This one is the spash screen of the app .I included animation in it .</h4>
 <img src="1.png" alt="a" width="200"/>
@@ -49,6 +49,12 @@
 
 <h4> 6. Now on clicking on mygarden button in bottom navigation bar.A screen opens with such a layout in which you can add any plant in your garden and track their progress as per months,days and years</h4>
 <img src="10.png" alt="a" width="200"/>
+     
+<h4> 7. Now if you want to know about your plant disease you can do this just by taking it's pic from camera or gallery</h4>
+<img src="new2.jpg" alt="a" width="200"/>
+<img src="new1.jpg" alt="a" width="200"/>
+<img src="new4.jpg" alt="a" width="200"/>
+
 
 ## 💻 Techs Used 
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
